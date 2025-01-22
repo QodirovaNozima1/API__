@@ -4,7 +4,7 @@ const ProductModal = ({oneItem, setOneItem}) =>{
     return(
         <>
         <div onClick={() => setOneItem(null)} className="fixed top-0 left-0 w-full h-screen bg-[#0005]"></div>
-        <div className="p-7 fixed flex items-center justify-center top-[50%] left-[50%] bg-white  w-[600px] min-h-[200px] translate-x-[50%] translate-y-[50%] animation-modal">
+        <div className="p-7 fixed gap-6 flex items-center justify-center top-[50%] left-[50%] bg-white  w-[600px] min-h-[300px] translate-x-[50%] translate-y-[50%] animation-modal">
             <div className="w-[50%] items-center border-red-800">
             <img src={oneItem.thumbnail} alt="" className="w-[100%]" />
             </div>
